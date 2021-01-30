@@ -1,0 +1,7 @@
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    margin-right: 50px;
+}

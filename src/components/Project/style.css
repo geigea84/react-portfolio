@@ -1,0 +1,28 @@
+.tt-rulers {
+    background-image: url('../../images/project1-snip.PNG');
+    position: relative;
+    color: white;
+}
+
+.tt-rulers-link {
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.ht-help {
+    background-image: url('../../images/howtohelpsnip.PNG');
+    position: relative;
+}
+
+.ht-help-link {
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

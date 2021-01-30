@@ -1,0 +1,9 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    border: 3px solid blue;
+}
+
+/* border currently runs off of right side of screen */

@@ -1,0 +1,9 @@
+.header {
+    background-image: url('../../images/rp-background.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: block;
+    color: white;
+}
