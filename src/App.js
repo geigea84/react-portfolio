@@ -1,14 +1,17 @@
 import React from 'react';
 import Footer from './components/Footer';
 import Header from './components/Header';
-import Nav from './components/Nav';
 import Project from './components/Project';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      
+        <Header></Header>
+        <main>
+            
+        </main>
+        <Footer></Footer>
     </div>
   );
 }
