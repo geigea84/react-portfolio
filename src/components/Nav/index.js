@@ -4,6 +4,8 @@ import './style.css';
 //will have to decide how to address the list item connections,
 //most likely treat it like the project contact page
 
+//conditional rendering e.target.value?
+
 function Nav() {
     return (
         <div className="nav-list-wrapper">
@@ -16,6 +18,9 @@ function Nav() {
                 </li>
                 <li>
                     <p>Contact me</p>
+                </li>
+                <li>
+                    <p>My resume</p>
                 </li>
             </ul>
         </div>

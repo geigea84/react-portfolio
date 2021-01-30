@@ -4,25 +4,31 @@
     color: white;
 }
 
-.tt-rulers-link {
-    content: '';
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
 .ht-help {
     background-image: url('../../images/howtohelpsnip.PNG');
     position: relative;
 }
 
-.ht-help-link {
+.horiseon {
+    background-image: url('../../images/horiseon-snip.PNG');
+    position: relative;
+    color: white;
+}
+
+.run-buddy {
+    background-image: url('../../images/run-buddy-snip.PNG');
+    position: relative;
+}
+
+.link {
     content: '';
     height: 100%;
     width: 100%;
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.project-title {
+    text-align: center;
 }
