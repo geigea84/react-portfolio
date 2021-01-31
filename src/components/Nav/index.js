@@ -6,22 +6,30 @@ import './style.css';
 
 //conditional rendering e.target.value?
 
-function Nav() {
+function Nav(props) {
+    //destructuring props passed in from App
+    const {
+        pages = [],
+        currentPage,
+        setCurrentPage
+    } = props;
+
     return (
         <div className="nav-list-wrapper">
             <ul className="nav-list">
-                <li>
-                    <p>My projects</p>
+                {/* map over page names */}
+                {pages.map((Page) => (
+                <li
+                    className={currentPage.name}
+                    key={Page.name}
+                >
+                    <span
+                        onClick={() => setCurrentPage(Page)}
+                    >
+                        {Page.name}
+                    </span>
                 </li>
-                <li>
-                    <p>About me</p>
-                </li>
-                <li>
-                    <p>Contact me</p>
-                </li>
-                <li>
-                    <p>My resume</p>
-                </li>
+                ))}
             </ul>
         </div>
     );
