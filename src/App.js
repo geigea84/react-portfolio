@@ -3,12 +3,12 @@ import Header from './components/Header';
 import Nav from './components/Nav';
 import Page from './components/Page';
 import Footer from './components/Footer';
-//import './App.css';
+import './App.css';
 
 function App() {
     const [pages] = useState([
-        {name: 'my projects'},
         {name: 'about me'},
+        {name: 'my projects'},
         {name: 'contact me'},
         {name: 'my resume'}
     ]);
@@ -25,8 +25,9 @@ function App() {
                     setCurrentPage={setCurrentPage}
                 ></Nav>
             </Header>
-            <main>
+            <main className="content-wrapper">
                 <Page currentPage={currentPage}></Page>
+                <div className="content-push"></div>
             </main>
             <Footer></Footer>
         </div>

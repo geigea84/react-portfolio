@@ -8,31 +8,31 @@ SO THAT I can assess whether they're a good candidate for an open position
 GIVEN a single-page application portfolio for a web developer
 WHEN I load the portfolio
 THEN I am presented with a page containing a header, a section for content, and a footer
-
+done
 
 WHEN I view the header
 THEN I am presented with the developer's name and navigation with titles corresponding to different sections of the portfolio
-
+done
 
 WHEN I view the navigation titles
 THEN I am presented with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted
-
+done
 
 WHEN I click on a navigation title
 THEN I am presented with the corresponding section below the navigation without the page reloading and that title is highlighted
-
+done
 
 WHEN I load the portfolio the first time
 THEN the About Me title and section are selected by default
-
+done
 
 WHEN I am presented with the About Me section
 THEN I see a recent photo of the developer and a short bio about them
-
+done
 
 WHEN I am presented with the Portfolio section
 THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repository
-
+done
 
 WHEN I am presented with the Contact section
 THEN I see a contact form with fields for a name, an email address, and a message

@@ -19,16 +19,19 @@ function Nav(props) {
             <ul className="nav-list">
                 {/* map over page names */}
                 {pages.map((Page) => (
-                <li
-                    className={currentPage.name}
-                    key={Page.name}
-                >
-                    <span
-                        onClick={() => setCurrentPage(Page)}
+                    <li
+                        className={currentPage.name}
+                        key={Page.name}
                     >
-                        {Page.name}
-                    </span>
-                </li>
+                        <button
+                            className={`${
+                                currentPage.name === Page.name && "pages"
+                            }`}
+                            onClick={() => setCurrentPage(Page)}
+                        >
+                            {Page.name}
+                        </button>
+                    </li>
                 ))}
             </ul>
         </div>

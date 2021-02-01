@@ -1,6 +1,6 @@
-import React from 'react';
-import Project from '../Project';
+import React, { useState } from 'react';
 import About from '../About';
+import Project from '../Project';
 import Contact from '../Contact';
 import Resume from '../Resume';
 import PageContent from '../PageContent'
@@ -11,16 +11,16 @@ function Page({ currentPage }) {
     function renderPage() {
         //pass in page names from App
         switch (currentPage.name) {
-            case 'my projects':
-                return <Project></Project>;
             case 'about me':
                 return <About></About>;
+            case 'my projects':
+                return <Project></Project>;
             case 'contact me':
                 return <Contact></Contact>;
             case 'my resume':
                 return <Resume></Resume>;
             default:
-                return <Project></Project>;
+                return <About></About>;
         }
     }
     
