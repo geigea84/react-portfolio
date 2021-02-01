@@ -6,17 +6,20 @@
     margin-right: 50px;
 }
 
-button {
+.nav-list-items {
     background-color: transparent;
     color: white;
     border: none;
     font-weight: bold;
+    padding: 3px 3px 0;
 }
 
-button:hover, .pages {
+.nav-list-items:hover, .pages {
     color: black;
     background-color: white;
     border: none;
     border-radius: 15px 15px 0 0;
     font-weight: bold;
+    cursor: pointer;
+    padding: 3px 3px 0;
 }

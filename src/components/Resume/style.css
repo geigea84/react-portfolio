@@ -3,6 +3,17 @@
     text-align: center;
 }
 
-.resume-text {
-    padding: 50px 200px;
+.resume-download {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.tech-title {
+    margin: 40px auto 0;
+}
+
+.skill-list {
+    margin: 10px auto;
+    width: 50%;
+    text-align: center;
 }

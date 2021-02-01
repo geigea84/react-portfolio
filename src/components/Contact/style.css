@@ -3,6 +3,14 @@
     text-align: center;
 }
 
-.contact-text {
-    padding: 50px 200px;
+.contact-inputs {
+    display: block;
+    margin: 20px auto;
+    width: 15%;
+}
+
+#contact-btn {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
 }

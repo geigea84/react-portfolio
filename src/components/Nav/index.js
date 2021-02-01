@@ -20,17 +20,17 @@ function Nav(props) {
                 {/* map over page names */}
                 {pages.map((Page) => (
                     <li
-                        className={currentPage.name}
+                        className="nav-list-items"
                         key={Page.name}
                     >
-                        <button
+                        <div
                             className={`${
                                 currentPage.name === Page.name && "pages"
                             }`}
                             onClick={() => setCurrentPage(Page)}
                         >
                             {Page.name}
-                        </button>
+                        </div>
                     </li>
                 ))}
             </ul>
