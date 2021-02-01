@@ -1,0 +1,22 @@
+.about-title {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.about-text {
+    padding: 50px 200px;
+}
+
+.headshot {
+    width: 83px;
+    height: 83px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -41.5px;
+    margin-top: -41.5px;
+}
+
+.about {
+    display: block;
+}
