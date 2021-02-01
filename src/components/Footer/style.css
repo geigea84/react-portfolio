@@ -1,0 +1,18 @@
+.footer {
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    display: inline;
+    justify-content: space-between;
+    padding: 20px 20px 0 20px;
+}
+
+.footer-anchors {
+    display: inline;
+    margin-left: 75px;
+    margin-right: 25px;
+}
