@@ -1,9 +1,14 @@
 # React-Portfolio
 
+This portfolio is a brief demonstration of some of my more current projects.  The portfolio itself is also a demonstration of my ability to implement the JavaScript library React.
+
 AS AN employer looking for candidates with experience building single-page applications
 I WANT to view a potential employee's deployed React portfolio of work samples
 SO THAT I can assess whether they're a good candidate for an open position
 
+deployed site: https://geigea84.github.io/react-portfolio/
+
+![screenshot](./public/zscreenshot.png)
 
 GIVEN a single-page application portfolio for a web developer
 WHEN I load the portfolio
