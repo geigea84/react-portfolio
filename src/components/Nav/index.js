@@ -18,6 +18,7 @@ function Nav(props) {
         <div className="nav-list-wrapper">
             <ul className="nav-list">
                 {/* map over page names */}
+                {/* name passed in as props from App.js */}
                 {pages.map((Page) => (
                     <li
                         className="nav-list-items"

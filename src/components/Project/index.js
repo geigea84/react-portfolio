@@ -23,7 +23,7 @@ function Project() {
                                         > </a>
                                     </div>
                                     <div>
-                                        <h4 className="black-back">Table Top Rulers</h4>
+                                        <h4 className="white-back">Table Top Rulers</h4>
                                     </div>
                                 </div>
                                 <div className="repository">
@@ -61,6 +61,31 @@ function Project() {
                                 </div>
                             </div>
                         </Col>
+                        <Col>
+                            <div className="house-it-container container">
+                                <p className="link-text">click image to view site</p>
+                                <div className="house-it project">
+                                    <div>
+                                        <a
+                                            href="https://house-it.herokuapp.com/"
+                                            alt="House-It link"
+                                            className="link"
+                                        > </a>
+                                    </div>
+                                    <div>
+                                        <h4 className="white-back">House-It</h4>
+                                    </div>
+                                </div>
+                                <div className="repository">
+                                    <a
+                                        href="https://github.com/chriswein12/house-it"
+                                        alt="House-It GitHub"
+                                    >
+                                        GitHub Repository
+                                    </a>
+                                </div>
+                            </div>
+                        </Col>
                     </Row>
                 </Col>
             </Row>
@@ -80,7 +105,7 @@ function Project() {
                                         > </a>
                                     </div>
                                     <div>
-                                        <h4 className="black-back">Horiseon</h4>
+                                        <h4 className="white-back">Horiseon</h4>
                                     </div>
                                 </div>
                                 <div className="repository">
@@ -132,7 +157,7 @@ function Project() {
                                         > </a>
                                     </div>
                                     <div>
-                                        <h4 className="black-back">Run Buddy</h4>
+                                        <h4 className="white-back">Run Buddy</h4>
                                     </div>
                                 </div>
                                 <div className="repository">

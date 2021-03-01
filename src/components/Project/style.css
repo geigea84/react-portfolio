@@ -8,6 +8,11 @@
     position: relative;
 }
 
+.house-it {
+    background-image: url('../../images/houseit.png');
+    position: relative;
+}
+
 .horiseon {
     background-image: url('../../images/horiseon-snip.PNG');
     position: relative;
@@ -48,7 +53,7 @@
 
 h4 {
     padding-bottom: 2px;
-    margin-right: 170px;
+    margin-right: 120px;
     text-align: center;
     border-radius: 15px;
 }
